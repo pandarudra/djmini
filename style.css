@@ -1,0 +1,325 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "SFPro", Arial, sans-serif;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.head {
+  height: 800px;
+  width: 100%;
+  background-size: cover;
+  background-image: url("https://static.tildacdn.com/tild6566-3362-4533-b666-383334663761/dji-mini-4-pro-drone.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px;
+  position: absolute;
+  top: 0px;
+  animation: img 1s linear 0ms 1;
+}
+@keyframes img {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+.nav {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 30px 50px;
+  z-index: 1;
+  background: transparent;
+}
+.head .logo {
+  height: 40px;
+  width: 60px;
+  background-image: url("photo.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.menu {
+  display: flex;
+  gap: 10px;
+}
+.menu div a {
+  text-decoration: none;
+  color: black;
+  font-weight: 550;
+}
+.menu div {
+  margin-right: 20px;
+  margin-top: 0.5vw;
+}
+.menu .btn1 {
+  padding: 10px 15px;
+  background-color: transparent;
+  border-radius: 35px;
+}
+.menu .btn1:hover {
+  background-color: #000;
+  color: white;
+}
+.menu .btn2 {
+  padding: 10px 35px;
+  background-color: #000;
+  color: white;
+  border-radius: 35px;
+}
+.txt {
+  height: 200px;
+  width: 100%;
+  margin-top: 9.5vw;
+  margin-left: 3vw;
+}
+.txt .btxt {
+  display: flex;
+  font-size: 7.5vw;
+  letter-spacing: 0.5vw;
+}
+.txt .btxt .t1 {
+  font-weight: 750;
+}
+.txt .btxt .t2 {
+  font-weight: 100;
+}
+.txt .t3 {
+  font-size: 1vw;
+  margin-left: 0.4vw;
+  font-weight: 550;
+}
+
+.mid {
+  position: absolute;
+  top: 900px;
+  height: 700px;
+  width: 100%;
+
+  display: flex;
+
+  gap: 3vw;
+}
+.mid:hover {
+  animation: img 1s linear 0ms 1;
+}
+.m1,
+.m2,
+.m3,
+.m4 {
+  height: 100%;
+  width: 25%;
+  color: #524f4f;
+}
+
+.m1 div {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-top: 150px;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.m1 div h4 {
+  height: 30px;
+  border-radius: 30px;
+  padding: 5px 10px;
+  border: 2px solid #000;
+}
+
+.m2 .img {
+  background-image: url("./images/249.svg");
+  height: 50px;
+  width: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 150px;
+  margin-left: 20px;
+}
+.m2 .about {
+  font-weight: 550;
+  margin-top: 10px;
+  padding-right: 35px;
+  margin-left: 20px;
+}
+
+.m3 .img:nth-child(1) {
+  background-image: url("./images/20km.svg");
+  height: 50px;
+  width: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 230px;
+  margin-left: 20px;
+}
+.m3 .about {
+  font-weight: 550;
+  margin-top: 10px;
+  padding-right: 35px;
+  margin-left: 20px;
+}
+.m3 .img:nth-child(2) {
+  background-image: url("./images/10km.svg");
+  height: 50px;
+  width: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  margin-left: 20px;
+}
+
+.m4 .img:nth-child(1) {
+  background-image: url("./images/apas.svg");
+  height: 50px;
+  width: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 120px;
+  margin-left: 20px;
+}
+.m4 .about {
+  font-weight: 550;
+  margin-top: 10px;
+  padding-right: 35px;
+  margin-left: 20px;
+}
+.m4 .img:nth-child(2) {
+  background-image: url("./images/1-3.svg");
+  height: 50px;
+  width: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  margin-left: 20px;
+}
+
+.mid-after {
+  position: absolute;
+  top: 1750px;
+  height: 700px;
+  width: 100%;
+
+  display: flex;
+  gap: 2vw;
+}
+.ma-left {
+  height: 100%;
+  width: 45%;
+}
+.ma-right {
+  height: 100%;
+  width: 55%;
+  background: #f5f5f5;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.txt-ma-1 {
+  margin-left: 40px;
+  font-size: 34px;
+  font-weight: 750;
+  line-height: 5vw;
+}
+.txt-ma-2 {
+  margin-left: 40px;
+  font-size: 17px;
+  font-weight: 350;
+  color: #524f4f;
+}
+.mid-black {
+  position: absolute;
+  top: 2448px;
+  height: 700px;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mid-black .mb-main {
+  height: 700px;
+  width: 90%;
+  background-image: url("https://static.tildacdn.com/tild3834-6264-4235-b163-303833653135/d003c9be215ceb90330e.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 3vw;
+
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+}
+.mid-black .mb-main .top {
+  color: white;
+  line-height: 3vw;
+  font-size: 2.5vw;
+  font-weight: 750;
+  margin: 3vw;
+}
+.mid-black .mb-main .bottom {
+  color: rgb(173, 167, 167);
+  width: 360px;
+  font-size: 1vw;
+  font-weight: 450;
+  margin: 3vw;
+  margin-top: 24vw;
+}
+.mid-video {
+  position: absolute;
+  top: 3170px;
+  height: 700px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./images/m-v.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.mid-after:hover {
+  animation: img 1s linear 0ms 1;
+}
+.v2 {
+  top: 3945px;
+  background-image: url(none);
+}
+.v3 {
+  top: 4720px;
+  background-image: url("./images/m-v-3.jpg");
+}
+.v2-r {
+  /* background-image: url("./images/m-v-2.jpg"); */
+  height: 700px;
+  width: 50%;
+}
+.v2-l {
+  padding: 3vw;
+  font-size: 34px;
+  height: 700px;
+  width: 50%;
+  padding-top: 12vw;
+  font-weight: 700;
+}
+.foot {
+  position: absolute;
+  top: 5490px;
+  height: 100px;
+  width: 100%;
+  background: #bbb5b5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
