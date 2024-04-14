@@ -7,3 +7,4 @@ Shery.imageEffect(".ma-right", {
   style: 6,
   debug: false,
 });
+document.querySelector(".v").play();
